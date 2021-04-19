@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif
+}
+
+nav {
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.wiki-image{
+    height: 160px;
+    width: 160px
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.info-table ul{
+    display: block;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid gray;
+    width: 32em;
+    font-weight: normal;
+    font-size: 1.8em
+}
+
+.content h3 {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    font-weight: normal;
+    font-size: 1.5em
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.5em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+
+
+.info-table>#title, #infopic>p{
+    align-self: center;
+}
+
+.subtitle{
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em
+
+}
+
+.title{
+    font-size: 125%;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#info-pic img{
+    height: 220px
+}
+
+#info-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-pic p{
+    margin: 0;
+}
+.info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1em * 0.875);
+    line-height: 1.6;
+}
+
+.project-block {
+    display: flex;
+}
+
+.project-pic {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    padding: 0.5em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
