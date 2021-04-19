@@ -32,6 +32,7 @@ nav {
 .content{
     display: flex;
     flex-direction: column;
+    
 }
 
 .content h1 {
@@ -42,12 +43,25 @@ nav {
     font-size: 1.8em
 }
 
+td.label{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
 .content h3 {
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 1px solid gray;
     width: 90%;
     font-weight: normal;
     font-size: 1.5em
+}
+
+table{
+    margin: 1em;
+    font-size: 88%;
+    width: 100%
 }
 
 .content-container{
@@ -57,6 +71,23 @@ nav {
 }
 
 .info-table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.5em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+
+}
+
+.contents-table{
     display: flex;
     flex-direction: column;
     border: 1px solid #a2a9b1;
@@ -119,6 +150,17 @@ nav {
 
 .project-block {
     display: flex;
+    font-size: calc(1em * 0.875);
+    line-height: 1.6;
+    align-items: center;
+}
+
+.project-block div{
+    margin: 0em 1em 0em 0em
+}
+
+.project-pic img{
+    height: 200px
 }
 
 .project-pic {
@@ -133,5 +175,4 @@ nav {
     clear: right;
     font-size: 88%;
     line-height: 1.5em;
-    width: 22em;
 }

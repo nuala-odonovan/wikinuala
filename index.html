@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html lang="en">
@@ -29,7 +30,8 @@
         <div class='content-container'>
             <div class = 'text-content'>
                 <div class = 'intro-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <strong>Nuala O'Donovan</strong> <italic><a href="https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key">NOO-lah oh-DUNNE-oh-vun</a></italic> is an American full-stack software engineer based in Brooklyn, New York.
+                    
                 </div>
                 <div class='info-table'>
                     <div class='title'>Contents</div>
@@ -90,24 +92,26 @@
                     <div class="title">Nuala O'Donovan</div>
                     <div id="info-pic">
                         <img src="nualapic.jpg" alt="Photo of woman smiling at camera with a city park background."/>
-                        <p>Nuala in McGorlick Park in 2020.</p>
+                        <p>Nuala in <a href="https://en.wikipedia.org/wiki/McGolrick_Park">McGolrick Park</a> in 2020.</p>
                     </div>
-                    <div class='info-row'>
-                        <p><b>Born</b></p>
-                        <p>Newton, Massachusetts</p>
-                    </div>
-                    <div class='info-row'>
-                        <p><b>Occupation</b></p>
-                        <p>Software Engineer</p>
-                    </div>
-                    <div class='info-row'>
-                        <p><b>Education</b></p>
-                        <p>McGill University (BA, 2015)</p>
-                    </div>
-                    <div class='info-row'>
-                        <p><b>Years Active</b></p>
-                        <p>1993-present</p>
-                    </div>
+                    <table>
+                        <tr>
+                            <td class="label">Born</td>
+                            <td>Fionnuala O'Donovan<br>Newton, Massachusetts</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Occupation</td>
+                            <td>Software Engineer</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Education</td>
+                            <td>McGill University (BA, 2015)</td>
+                        </tr>                        <tr>
+                            <td class="label">Years Active<br>(as a person)</td>
+                            <td>1993-present</td>
+                        </tr>
+                    
+                    </table>
                 </table>
             </div> 
         </div>
@@ -137,37 +141,48 @@
                 <small>Good luck getting on the leaderboard.</small>
             </div>
             <div>
-                Typopo is blah blah blahd.
+                Typopo is an interactive words-per-minute typing game with leaderboard updated in real time and a chat room feature.
+                Inspired intellectually by <a href="https://en.wikipedia.org/wiki/List_of_Mario_educational_games#:~:text=Mario%20Teaches%20Typing%20was%20released,is%20voiced%20by%20Ronald%20B.">Mario Teaches Typing</a> and visually by the <a href="https://en.wikipedia.org/wiki/Net.art">net.art movement</a>, Typopo was built using React components
+                to continuously re-render text based on correct input and to calculate scores. Typopo uses a Postgres database to store and update new high scores,
+                and utilizes web sockets for chat functionality, with help from Socket.iO.
+                <br>
+                <br>
+                Play Typopo <a href="http://typopo.herokuapp.com/">here</a> or visit the code on GitHub <a href="https://github.com/nuala-odonovan/typopo">here.</a>
             </div>
         </div>
         <div class="subtitle" id="ratemylandlord">
             Rate My Landlord
         </div>
         <div class="project-block">
+            <div>
+               Rate My Landlord is a Progressive Web App that allows users to search NYC buildings and landlords, leave reviews, expore and visualize housing-related data, contact other users, and view curated rental listings.
+            </div>
             <div class="project-pic">
                 <img src="RML1.png">
                 <small>RateMyLandlord homepage.</small>
             </div>
-            <div>
-                RML is blah blah blah 
-            </div>
         </div>
         <div class="project-block">
-            <div>
-                RML is blah blah blah 
-            </div>
             <div class="project-pic">
                 <img src="RML2.png">
-                <small>RateMyLandlord homepage.</small>
-            </div>
-        </div>
-        <div class="project-block">
-            <div class="project-pic">
-                <img src="RML3.png">
-                <small>RateMyLandlord homepage.</small>
+                <small>A page containing all the data and reviews for a single landlord.</small>
             </div>
             <div>
-                RML is blah blah blah 
+                Inspired by the popular website Rate My Professor, Nuala and her co-developers hoped to create a useful resource that included relevant features for those moving within or to New York, while also using
+                the project as an opporunity to explore new technologies. For the "explore" page, Nuala and her teammates played around with data visualization libraries like Chart.js On the account home-page view, for a logged-in user, the team 
+                built in a curated rental listing feature based on user preferences using web-scraping with Puppeteer.js.            </div>
+        </div>
+        <div class="project-block">
+            <div>
+                Completed by a team of four over a 12-day sprint, Rate My Landlord is built with Node.js, React, Redux, Express, Postgres, Sequelize, Chart.js, Materialize UI, and Puppeteer.
+                <br>
+                <br>
+                Go ahead and rate your own landlord <a href="http://ratemy-landlord.herokuapp.com/">here,</a> check out out the code on GitHub <a href="https://github.com/Venus-GH/RateMyLandlord">here,</a> and watch the group's capstone presentation on YouTube <a href="https://www.youtube.com/watch?v=8hLTW-f7zdo&ab_channel=FullstackAcademy">here.</a>
+
+            </div>
+            <div class="project-pic">
+                <img src="RML3.png">
+                <small>A logged-in user's account home-page view.</small>
             </div>
         </div>
         <div class="subtitle" id="Bubblysort">
@@ -176,19 +191,22 @@
         <div class="project-block">
             <div class="project-pic">
                 <img src="BubblySort1.png">
-                <small>RateMyLandlord homepage.</small>
+                <small>Bubblysort homepage</small>
             </div>
             <div>
-                RML is blah blah blah 
+                Bubblysort is a mock e-commerce site dedicated to selling fake seltzer. Nuala and her team of 4 developed Bubblysort over a 5-day sprint.
             </div>
         </div>
         <div class="project-block">
             <div>
-                RML is blah blah blah 
+                Bubblysort provides a seamless shopping experience for new and returning users, with persistent cart functionality, checkout, and Google oAuth options.
+                <br>
+                <br>
+                Grab a faux-cherry seltzer <a href="http://bubblysort.herokuapp.com/">here,</a> or check out the code on GitHub <a href="https://github.com/graceshopper-team-wasp/graceshopper-project">here.</a>
             </div>
             <div class="project-pic">
                 <img src="BubblySort2.png">
-                <small>RateMyLandlord homepage.</small>
+                <small>A refreshing and completely fake selection of seltzers.</small>
             </div>
         </div>
         <div class="subtitle" id="vintage-nasa">
@@ -197,10 +215,13 @@
         <div class="project-block">
             <div class="project-pic">
                 <img src="VintageNasa.png">
-                <small>Vintage Nasa home</small>
+                <small>You've heard of Lorum Ipsum, have you heard of Carl Sagan Ipsum?</small>
             </div>
             <div>
-                RML is blah blah blah 
+                Nuala built Vintage Nasa using NASA's API to fetch and randomly render vintage official NASA footage.
+                <br>
+                <br>
+                Check out the code on GitHub <a href="https://github.com/nuala-odonovan/vintage-nasa">here.</a>
             </div>
         </div>
 
@@ -210,3 +231,4 @@
   <script src="js/scripts.js"></script>
 </body>
 </html>
+
