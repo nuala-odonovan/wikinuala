@@ -15,18 +15,44 @@
 
 <body>
     <nav class='sidebar'>
-        <img class='wiki-image' src='./wikipedia.jpeg' />
+        <img class='wiki-image' src='wiki.png' />
         <ul class='nav-list'>
-            <li>Main liage</li>
-            <li>Contents</li>
-            <li>Current events</li>
+            <li><a href="#">Main Page</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/special:random">Random Article</a></li>
+            <li id="contact-nuala"><a href="#">Contact Nuala</a></li>
             <li>Random article</li>
             <li>About Wikipedia</li>
             <li>Contact us</li>
         </ul>
     </nav>
+    <div id="top-bar"> </div>
     <div class='content'>
         <h1>Nuala O'Donovan</h1>
+        <div class="info-table">
+            <div class="title">Nuala O'Donovan</div>
+            <div id="info-pic">
+                <img src="nualapic.jpg" alt="Photo of woman smiling at camera with a city park background."/>
+                <p>Nuala in <a href="https://en.wikipedia.org/wiki/McGolrick_Park">McGolrick Park</a> in 2020.</p>
+            </div>
+            <table>
+                <tr>
+                    <td class="label">Born</td>
+                    <td>Fionnuala O'Donovan<br>Newton, Massachusetts</td>
+                </tr>
+                <tr>
+                    <td class="label">Occupation</td>
+                    <td>Software Engineer</td>
+                </tr>
+                <tr>
+                    <td class="label">Education</td>
+                    <td>McGill University (BA, 2015)</td>
+                </tr>                        <tr>
+                    <td class="label">Years Active<br>(as a person)</td>
+                    <td>1993-present</td>
+                </tr>
+            
+            </table>
+    </div> 
         <div class='content-container'>
             <div class = 'text-content'>
                 <div class = 'intro-text'>
@@ -88,44 +114,29 @@
                 </div>
             </div> 
             <div class = 'table-container'>
-                <div class="info-table">
-                    <div class="title">Nuala O'Donovan</div>
-                    <div id="info-pic">
-                        <img src="nualapic.jpg" alt="Photo of woman smiling at camera with a city park background."/>
-                        <p>Nuala in <a href="https://en.wikipedia.org/wiki/McGolrick_Park">McGolrick Park</a> in 2020.</p>
-                    </div>
-                    <table>
-                        <tr>
-                            <td class="label">Born</td>
-                            <td>Fionnuala O'Donovan<br>Newton, Massachusetts</td>
-                        </tr>
-                        <tr>
-                            <td class="label">Occupation</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                        <tr>
-                            <td class="label">Education</td>
-                            <td>McGill University (BA, 2015)</td>
-                        </tr>                        <tr>
-                            <td class="label">Years Active<br>(as a person)</td>
-                            <td>1993-present</td>
-                        </tr>
-                    
-                    </table>
-                </table>
-            </div> 
         </div>
     </div>
     <div id="early-life">
         <a name="early-life">
         <h3>Early Life</h3>
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Nuala was born in Newton, Massachusetts in 1993 to an American mother and Irish father. From a young age, she enjoyed playing music with her friends and family, puzzles, and reading. Nuala was a strong math and science student, and planned to pursue a Cognitive Science degree at McGill University, but fell in love with the first History course she took and switched majors.
+            <br><br>
+            For her final elective, second semester of senior year, Nuala chose to take COMP 202 (Intro to Computer Programming) and learned to code in Java. She enjoyed the class so much that she considered staying for an extra year to complete a Computer Science minor, but was eager to start her adult life back in the United States. This decision would come back to haunt her approximately 5 years later.
         </div>
         </a>
     </div>
     <div id="career">
         <h3>Career</h3>
+        <div class="subtitle" id="2015-2020">
+            2015-2020: Welcome to New York
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="subtitle" id="2020-2021">
+            2020-2021: Transition to Software Engineering
+        </div>
         <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
@@ -224,11 +235,19 @@
                 Check out the code on GitHub <a href="https://github.com/nuala-odonovan/vintage-nasa">here.</a>
             </div>
         </div>
+        <div id="personal-life">
+            <a name="personal-life">
+            <h3>Personal Life</h3>
+            <div>
+                Nuala enjoys running, and completing the New York Times crossword puzzle with her girlfriend (her favorite puzzles are Saturdays). Her favorite movie is Alien, and she hopes to travel in a commercial flight to outer space in her lifetime.
+            </div>
+            </a>
+        </div>
 
     </div>
 
 
-  <script src="js/scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
